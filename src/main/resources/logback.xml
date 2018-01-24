@@ -99,11 +99,7 @@
 		<appender-ref ref="errorAppender" />
 		<appender-ref ref="infoAppender" />
 	</logger>
-	<logger name="com.zhongan">
-		<level value="INFO" />
-		<appender-ref ref="errorAppender" />
-		<appender-ref ref="infoAppender" />
-	</logger>
+
 
 	<logger name="com.netflix">
 		<level value="INFO" />
@@ -182,9 +178,7 @@
 		<!--<level value="INFO" />-->
 	<!--</logger>-->
 
-	<!--<logger name="com.zhongan" >-->
-		<!--<level value="DEBUG" />-->
-	<!--</logger>-->
+
 
 	<!--<appender name="RollingFileASYNC" class="ch.qos.logback.classic.AsyncAppender">-->
 		<!--&lt;!&ndash; 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 &ndash;&gt;-->
